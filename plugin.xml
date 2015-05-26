@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="ebp.cordova.plugin.local-notification"
-        version="0.8.2">
+        version="0.8.4">
 
     <name>LocalNotification</name>
 
@@ -18,10 +18,6 @@
     <author>Sebastian Katzer</author>
 
     <!-- cordova -->
-    <engines>
-        <engine name="cordova" version=">=3.6.0" />
-        <engine name="cordova" version="<4.0.0" />
-    </engines>
 
     <!-- dependencies -->
     <dependency id="cordova-plugin-device" />
